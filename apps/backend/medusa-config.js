@@ -15,6 +15,9 @@ module.exports = defineConfig({
     },
     workerMode: process.env.MEDUSA_WORKER_MODE,
   },
+  admin: {
+    disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
+  },
   modules: {
     companyModuleService: {
       resolve: "./modules/company",
