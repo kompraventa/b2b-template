@@ -9,7 +9,25 @@
       "persistent": true,
       "cache": false
     },
-    "start": {},
+    "start": {
+      "cache": false,
+      "env": [
+        "DO_NOT_TRACK",
+        "TURBO_TELEMETRY_DISABLED",
+        "ADMIN_CORS",
+        "AUTH_CORS",
+        "COOKIE_SECRET",
+        "DATABASE_URL",
+        "JWT_SECRET",
+        "MEDUSA_ADMIN_EMAIL",
+        "MEDUSA_ADMIN_PASSWORD",
+        "NODE_ENV",
+        "RAILWAY_PUBLIC_DOMAIN_VALUE",
+        "REDIS_URL",
+        "STORE_CORS",
+        "PORT"
+      ]
+    },
     "seed": {}
   }
 }
