@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@medusajs/types": ["packages/types"]
+    }
+  }
+}
